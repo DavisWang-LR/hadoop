@@ -8,11 +8,6 @@ import org.apache.hadoop.hbase.util.Bytes;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * @author: fz
- * @create: 2021-08-06 00:09
- * 打印表所有数据
- **/
 public class SelectTable {
     public static void scan(Connection connection, String tableName) throws IOException {
         //Admin admin = connection.getAdmin();

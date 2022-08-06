@@ -13,7 +13,4 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  '/davwan/homework2/ratings' -- hdfs file path
-TBLPROPERTIES (
-  'bucketing_version'='2',
-  'transient_lastDdlTime'='1648534400');
+  '/davwan/homework2/ratings'; -- hdfs file path
